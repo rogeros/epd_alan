@@ -122,7 +122,7 @@ class EPD:
         self.send_command(PANEL_SETTING)
         self.send_data(0x1F)
         self.send_command(VCOM_AND_DATA_INTERVAL_SETTING)
-        self.send_data(0x3c)
+        self.send_data(0x97)
         self.send_command(RESOLUTION_SETTING)
         self.send_data (0x68)#68
         self.send_data (0x00)
